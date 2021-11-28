@@ -100,41 +100,11 @@ categorical crossentropy was used as loss function. It is well suited for classi
 
 <div align="center"><h1>Marathi Word Sense Disambiguation</h1></div>
 
-## Approach
-
-1. All the sentences along with their Parts of Speech (POS) tags are seperated from the textual data from each Domain (Health, News, Tourism).
-
-2. Converting the textual data to numerical data by assigning index to each word.
-
-3. Training a Bi-Directional LSTM model to predict the POS tag for a word.
-
-4. Seperating the nouns, verbs, adverbs and adjectives.
-
-5. Loading the nouns data containing all the senses along with some example sentences.
-
-6. Using cosine similarity to find the correct sense of the noun from the input sentence.
-
-## Pseudocode
-
-<b>Input: </b>A paragraph belonging to Health, News or Tourism Domain <br/>
-<b>Output: </b>Correct sense of the nouns based on the context of the paragraph <br/>
-(1) Seperate all the sentences in the paragraph <br/>
-(2) for each sentence in sentences<br/>
-(3) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;converting the sentence to numerical data by assigning index to each work and also padding the sentences;<br/>
-(4) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;using the trained POS tagging model to predict the parts of speech for each word in the sentence;<br/>
-(5) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gets all the available senses for the predicted nouns;<br/>
-(6) End for<br/>
-(7) for each noun in predicted nouns<br/>
-(8) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;calculates the context vector for the noun by adding all the context vectors of the neighbour words;<br/>
-(9) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;predicts the correct sense of the noun based on the cosine similarity of the context vector of the noun and the context vectors of all the sentences;<br/>
-(10) End for<br/>
-(11) Return the correct senses of the predicted nouns
-
 ## POS Tagging Workflow
-<center><img src="./images/POS_TAGGING_Flowchart.png" align="center"></center>
+<center><img src="https://user-images.githubusercontent.com/58647922/143731783-21aec60d-4836-4453-8756-ad691e9c8643.png" align="center"></center>
 
 ## Wordsense Disambiguation Workflow
-<center><img src="./images/WSD_Flowchart.png" align="center"></center>
+<center><img src="https://user-images.githubusercontent.com/58647922/143731814-75dce942-6866-40ed-9acd-3ff1788457d8.png" align="center"></center>
 
 ## Instructions to run the Application
 
