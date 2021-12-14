@@ -76,7 +76,7 @@ python main.py
 9. <b>Which loss function is used?</b><br/>
    categorical crossentropy was used as loss function. It is well suited for classification tasks involving classification of multiple classes.
 
-## Architectures
+## Architectures:
 
 #### POS tagging model for Health Domain
 
