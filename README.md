@@ -104,46 +104,47 @@ python main.py
     35k in Health and 39k in Tourism.
 
 18. <b>Kindly Draw graphs for the Performance (or any others) of model in each domain. (accuracy, precision, recall, and F-measure)</b><br>
-Health domain:<br>
 
-loss:
+## Health domain:<br>
+
+### Loss:
 <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124499695-159bae80-dddc-11eb-9585-efdd64bba311.png" height=400 width=600>
 </div>
 
- accuracy:
+### Accuracy:
 <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124499714-1c2a2600-dddc-11eb-93e3-017b9e0687df.png" height=400 width=600>
 </div>
  
- Confusion matrix:
+### Confusion matrix:
  <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124499765-2fd58c80-dddc-11eb-91b0-b8beb0639f4e.png" height=400 width=700>
 </div>
  
- Classification report:
+### Classification report:
  <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124501820-e25b1e80-dddf-11eb-94f1-4c23b701526c.png" height=300 width=600>
 </div>
 
-Tourism Domain:<br>
+## Tourism Domain:<br>
 
-loss:
+### Loss:
 <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124500787-00c01a80-ddde-11eb-9ff6-601686db56be.png" height=400 width=600>
 </div>
 
- accuracy:
+### Accuracy:
 <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124500802-087fbf00-ddde-11eb-836d-a31954c3546f.png" height=400 width=600>
 </div>
  
- Confusion matrix:
+### Confusion matrix:
  <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124502224-ae342d80-dde0-11eb-8463-efd8bedffd34.png" height=400 width=700>
 </div>
 
-Classification report:
+### Classification report:
  <div align="center">
     <img src="https://user-images.githubusercontent.com/58647922/124501241-cdca5680-ddde-11eb-97fc-698d79860d3b.png" height=300 width=600>
 </div>
